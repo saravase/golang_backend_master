@@ -32,6 +32,15 @@
 
     $ migrate create -ext sql -dir db/migration -seq init_schema
 
+## Create Makefile and Execute cmd:
+
+    $ make postgres     -   Install postgres
+    $ make createdb     -   Create database in postgres
+    $ make dropdb       -   Remove database in postgres
+    $ make migrateinit  -   Create migration up and down file
+    $ make migrateup    -   Execute sql queries mentioned in up file
+    $ make migratedown  -   Execute sql queries mentioned in down file
+
 ## Generate CRUD code - SQLC
 
     DATABASE/SQL:
