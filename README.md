@@ -74,3 +74,16 @@
     $ sqlc version
 
     $ sqlc help
+
+    $ sqlc init 
+    
+        - Update sqlc.yaml file
+        - Create directories
+        - Create sql file in query directory
+    
+    $ make sqlc
+
+## Test CRUD code - SQLC
+    $ make test
+
+
