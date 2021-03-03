@@ -83,7 +83,7 @@
     
     $ make sqlc
 
-## Test CRUD code - SQLC
+## Test CRUD code - testify
     $ make test
 
 
